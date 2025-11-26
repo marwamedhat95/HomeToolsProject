@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Wishlist.css";
+import "./wishlist.css";
 
 export default function Wishlist() {
     const [wishlist, setWishlist] = useState([]);
